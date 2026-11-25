@@ -59,11 +59,3 @@ the "Example" section of the top-level README.
    further joins are required inside Tableau.
 
 No workbook file is included; these are build specifications for the dashboards.
-
-## Maintainer
-
-Dev Bhatt maintains this project, with a focus on analytics, automated data
-pipelines, controls, and dashboards. Dev has over six years of professional
-experience and works with SQL, Python, PySpark, Spark, Airflow, and dbt.
-
-For project-related questions, contact Dev at [devbhattwork27@gmail.com](mailto:devbhattwork27@gmail.com) or connect on [LinkedIn](https://linkedin.com/in/dev-bhatt27).

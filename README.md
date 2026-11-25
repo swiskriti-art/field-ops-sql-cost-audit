@@ -2,8 +2,6 @@
 
 A dbt + SQL project that reconciles messy field-operations data into a true cost-to-serve per job and shows where SLA breaches concentrate.
 
-[![CI](https://github.com/SlateGitOrg/field-ops-sql-cost-audit/actions/workflows/ci.yml/badge.svg)](https://github.com/SlateGitOrg/field-ops-sql-cost-audit/actions/workflows/ci.yml)
-
 ## Why
 
 Field-service and delivery operators need two answers they rarely get: what does it really cost to serve each job, and where do SLA breaches actually happen? The data that answers both sits in separate operational systems (dispatch, routes, timesheets, parts billing) with duplicate rows, orphaned references and credit lines. This project models those tables through a tested dbt pipeline into reporting views, with the hard SQL (recursive route sequencing, utilization windows, cost allocation) written once and covered by tests.
@@ -136,10 +134,3 @@ cd dbt_project && dbt build --target prod
 ## License
 
 MIT - see [LICENSE](LICENSE).
-
-## Maintainer
-
-This project is maintained by Dev Bhatt, a data analyst with 6+ years of experience building automated data pipelines, controls and dashboards. His work focuses on SQL, Python, PySpark, Airflow and dbt, with an emphasis on reliable analytics and operational automation.
-
-- Email: [devbhattwork27@gmail.com](mailto:devbhattwork27@gmail.com)
-- LinkedIn: [linkedin.com/in/dev-bhatt27](https://linkedin.com/in/dev-bhatt27)
